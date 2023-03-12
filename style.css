@@ -1,6 +1,7 @@
 body{
     background-color: rgb(29, 26, 26);
     color: rgb(199, 175, 175);
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -10,7 +11,7 @@ a{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    gap:50%;
+    gap:25%;
     padding-top: 20px;
     /* padding-left: 1%;
     padding-right: 1%; */
@@ -20,14 +21,11 @@ a{
     color: #f9faf8;
     font-weight: 800;
 }
-.h-links .herosec{
-    font-size: 18px;
-    color: #e5e7eb;
-}
+
 .h-links{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -37,5 +35,55 @@ a{
     gap: 20px;
     justify-content: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     
 }
+.heromain{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    max-width: 400px;
+}
+.herosec{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 400px;
+    margin: 10px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 15px;
+    border: none;
+    margin: 5px;
+}
+.sec2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;  
+    padding: 50px;  
+    gap: 50px;
+}
+.sec2title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+.sec2imgtxt{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 700px;
+}
+.imgtxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+
